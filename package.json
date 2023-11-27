@@ -1,0 +1,27 @@
+{
+  "name": "image-ip-tracker",
+  "version": "1.0.0",
+  "description": "ip tracker",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm run test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kKaskak/image-ip-tracker.git"
+  },
+  "keywords": [
+    "ip"
+  ],
+  "author": "Timothy Z.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kKaskak/image-ip-tracker/issues"
+  },
+  "homepage": "https://github.com/kKaskak/image-ip-tracker#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security"
+  }
+}
