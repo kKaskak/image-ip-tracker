@@ -1,5 +1,5 @@
-const express = require('express');
-const fetch = require('node-fetch'); // You'll need to install node-fetch
+import express from 'express';
+import fetch from 'node-fetch';
 const app = express();
 
 app.use(express.static('public'));
@@ -29,4 +29,4 @@ function logRequest(ip) {
     .catch(console.error);
 }
 
-module.exports = app;
+export default app;

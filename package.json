@@ -19,6 +19,7 @@
   "bugs": {
     "url": "https://github.com/kKaskak/image-ip-tracker/issues"
   },
+  "type": "module",
   "homepage": "https://github.com/kKaskak/image-ip-tracker#readme",
   "dependencies": {
     "express": "^4.18.2",
