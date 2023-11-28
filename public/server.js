@@ -2,7 +2,7 @@ import express from 'express';
 import fetch from 'node-fetch';
 const app = express();
 
-app.use(express.static('public'));
+app.use(express.static('../public'));
 
 app.get('/image', (req, res) => {
     const ip = req.headers['x-forwarded-for'] || req.socket.remoteAddress;
@@ -11,7 +11,7 @@ app.get('/image', (req, res) => {
     logRequest(ip);
 
     // Send the image file
-    res.sendFile(__dirname + '/public/1280px-HD_transparent_picture.png');
+    res.sendFile(__dirname + '/1280px-HD_transparent_picture.png');
 });
 
 function logRequest(ip) {
